@@ -101,12 +101,17 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .end{
-    padding: 10px;
+    padding: 20px 10px;
     color: #0c1737;
     background-color: rgb(188, 143, 36);
     font-weight: bolder;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
+}
+.end p{
+    text-align: end;
+    font-family: cursive;
+    color: gainsboro;
 }
 @media(max-width: 900px) {
     .header{
