@@ -21,7 +21,7 @@
 .nav li{
     font-weight: bold;
     font-size: 20px;
-    font-family: cursive;
+    font-family: "Comic Sans MS", sans-serif;
     color: rgb(143, 125, 27);
     list-style-type: none;
     background-color: goldenrod;
@@ -101,6 +101,6 @@
         flex-direction: column;
     }
     .scriptures{
-        margin-top: 10%;
+        margin-top: 15%;
     }
 }
