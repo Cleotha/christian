@@ -48,7 +48,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: larger;
-    color: black;
+    color: rgb(32, 16, 78);
     text-align: center;
     position: relative;
     animation: animate 2s linear 1 normal forwards;
@@ -104,6 +104,6 @@
     }
     .scriptures{
         margin-top: 15%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 }
