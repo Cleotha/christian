@@ -48,7 +48,7 @@
     font-family: "Comic Sans MS", sans-serif;
     font-weight: bold;
     font-size: larger;
-    color: rgb(151, 131, 21);
+    color: rgb(52, 38, 5);
     text-align: center;
     position: relative;
     animation: animate 2s linear 1 normal forwards;
@@ -79,15 +79,18 @@
 } 
 .scriptures{
     width: 90%;
-    background-color: gainsboro;
+    background-color: #0c1737;
     padding: 3%;
     border-radius: 1%;
     margin: 5% auto;
     text-align: center;
-    color: goldenrod;
+    color: gold;
     font-weight: bold;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
+}
+.text{
+    color: rgb(61, 45, 6);
 }
 @media(max-width: 900px) {
     .header{
