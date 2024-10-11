@@ -85,7 +85,7 @@
     margin: 5% auto;
     text-align: center;
     color: gold;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -104,6 +104,6 @@
     }
     .scriptures{
         margin-top: 20%;
-        margin-bottom: 25%;
+        margin-bottom: 30%;
     }
 }
