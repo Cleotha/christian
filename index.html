@@ -20,13 +20,76 @@
         <!--nav-->
         <div class="nav">
             <nav>
+                <!--list with dropdown option-->
                 <ul>
-                    <li>BIBLE</li>
-                    <li>Open When..</li>
-                    <li>Verse of the day</li>
-                    <li>Details of the 12 Apostles</li>
-                    <li>Message link</li>
-                    <li>About APP</li>
+                    <div class="title">
+                        <label for="bible"><li>BIBLE</li></label>
+                        <select id="bible" name="bible">
+                            <option value="bible" class="dropdown">TESTAMENT</option>
+                            <option value="bible" class="dropdown">OLD</option>
+                            <option value="bible" class="dropdown">NEW</option>
+                        </select>
+                    </div>
+                    <div class="title">
+                        <label for="emotion"><li>Read When...</li></label>
+                        <select id="emotion" name="emotion">
+                            <option value="emotion" class="dropdown">EMOTIONS</option>
+                            <option value="emotion" class="dropdown">ANGRY</option>
+                            <option value="emotion" class="dropdown">AFRAID</option>
+                            <option value="emotion" class="dropdown">SAD</option>
+                            <option value="emotion" class="dropdown">CONFUSED</option>
+                            <option value="emotion" class="dropdown">HEARTBROKEN</option>
+                            <option value="emotion" class="dropdown">DEPRESSED</option>
+                            <option value="emotion" class="dropdown">WORRIED</option>
+                        </select>
+                    </div>
+                    <div class="title">
+                        <label for="verse"><li>Verse of the Week</li></label>
+                        <select id="verse" name="emotion">
+                            <option value="verse" class="dropdown">WEEK</option>
+                            <option value="verse" class="dropdown">1</option>
+                            <option value="verse" class="dropdown">2</option>
+                            <option value="verse" class="dropdown">3</option>
+                            <option value="verse" class="dropdown">4</option>
+                            <option value="verse" class="dropdown">5</option>
+                        </select>
+                    </div>
+                    <div class="title">
+                        <label for="apostles"><li class="dropbtn">Details of the 12 apostles</li></label>
+                        <select id="apostles" name="apostles">
+                            <option value="apostles" class="dropdown">12 Disciples</option>
+                            <option value="apostles" class="dropdown">Peter</option>
+                            <option value="apostles" class="dropdown">Matthew</option>
+                            <option value="apostles" class="dropdown">John</option>
+                            <option value="apostles" class="dropdown">Judas Iscariot</option>
+                            <option value="apostles" class="dropdown">Philip</option>
+                            <option value="apostles" class="dropdown">Andrew</option>
+                            <option value="apostles" class="dropdown">Judas Thaddeus</option>
+                            <option value="apostles" class="dropdown">Simon Zelotes</option>
+                            <option value="apostles" class="dropdown">Thomas</option>
+                            <option value="apostles" class="dropdown">Bartholomew</option>
+                            <option value="apostles" class="dropdown">James, <br>the son of Alpheus</option>
+                            <option value="apostles" class="dropdown">James</option>
+                         </select>
+                    </div>
+                    <div class="title">
+                        <label for="messages"><li class="dropbtn">Message Link</li></label>
+                        <select id="messages" name="messages">
+                            <option value="messages" class="dropdown">Apostles</option>
+                            <option value="messages" class="dropdown">Apostle Arome Osayi</option>
+                            <option value="messages" class="dropdown">Apostle Micheal Orokpo</option>
+                            <option value="messages" class="dropdown">Rev. Kesiena</option>
+                            <option value="messages" class="dropdown">Pst. Philip Okikijesu</option>
+                            <option value="messages" class="dropdown">Apostle Edu Udechukwu</option>
+
+                        </select>
+                    </div>
+                    <div class="title">
+                        <li class="dropbtn">About WEB</li>
+                        <div class="apostle-content">
+                            <p></p>
+                         </div>
+                    </div>
                 </ul>
             </nav>
         </div>
@@ -61,6 +124,10 @@
         <div class="scriptures">
             <h2>Proverbs 16:3</h2>
             <p>"Ask the Lord to bless your plans, and you will be successful in carrying them out."</p>
+        </div>
+        <div class="end">
+            <h5>"The LORD bless you and keep you; the LORD make his face to shine upon you, and be gracious to you; the LORD 
+                lift up his countenance upon you, and give you peace."</h5>
         </div>
     </div>
 </body>
