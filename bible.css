@@ -46,9 +46,9 @@
     margin-left: 15%; 
     padding-top: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    font-size: larger;
-    color: #0c1737;
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(93, 70, 13);
     text-align: center;
     position: relative;
     animation: animate 2s linear 1 normal forwards;
@@ -103,7 +103,7 @@
         flex-direction: column;
     }
     .scriptures{
-        margin-top: 15%;
-        margin-bottom: 10%;
+        margin-top: 20%;
+        margin-bottom: 25%;
     }
 }
