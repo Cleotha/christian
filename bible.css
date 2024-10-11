@@ -100,4 +100,7 @@
     .nav ul{
         flex-direction: column;
     }
+    .scriptures{
+        margin-top: 10%;
+    }
 }
